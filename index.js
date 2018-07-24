@@ -1,1 +1,3 @@
-// add solution here
+function theBeatlesPlay(music, instr){
+  var result[];
+}
