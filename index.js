@@ -1,6 +1,6 @@
 function theBeatlesPlay(music, instr){
   var result = [];
-  for(var i=0; i<result.length; i++){
+  for(var i=0; i<music.length || i<instr.length; i++){
     var str = music[i] + " plays " + instr[i];
     result.push(str);
   }
@@ -15,7 +15,7 @@ const facts = [
 ];
 
 function johnLennonFacts(facts){
-  i = 0;
+  var i = 0;
   var newFacts = [];
   while(i < facts.length){
     strNew = facts[i] + "!!!";
